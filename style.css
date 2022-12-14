@@ -336,8 +336,6 @@ nav li:hover {
     text-align: center;
 }
 
-
-
 .story-div {
     width: 30%;
     float: left;
@@ -432,4 +430,36 @@ nav li:hover {
 
 .pic-text {
     margin-top: 350px;
+}
+
+.user-stories {
+    position: relative;
+    padding: 40px 75px;
+}
+
+.img-div {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(./images/person-sm-01.jpg);
+    float: left;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.story-div {
+    width: 20%;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    box-shadow: 10px 10px 2px rgb(0 0 0 / 15%);
+}
+
+.user-stories>h2 {
+    margin-top: 500px;
+    text-align: center;
+}
+
+.user-stories>button {
+    position: absolute;
+    left: 50%;
 }
