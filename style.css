@@ -327,3 +327,30 @@ nav li:hover {
     background-color: white;
     transform: rotate(90deg);
 }
+
+.life-story {
+    padding: 90px 0px;
+}
+
+.story-div {
+    width: 30%;
+    float: left;
+}
+
+.timeline {
+    margin-top: 100px;
+    border: 1px solid;
+}
+
+.timeline>div {
+    margin-left: 200px;
+    float: left;
+}
+
+.dot {
+    margin-top: -5px;
+    border-radius: 10px;
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
