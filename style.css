@@ -1,4 +1,5 @@
 * {
+
     margin: 0px;
     padding: 0px;
     font-family: sans-serif;
@@ -66,6 +67,7 @@ nav li:hover {
 }
 
 .nav-bar>button:hover {
+    cursor: pointer;
     box-shadow: .125rem 0.1875rem 0.9375rem rgb(0 0 0 / 30%);
     transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }
@@ -182,15 +184,15 @@ nav li:hover {
     margin-top: 20px;
 }
 
-hr {
+.first-hr {
     margin-top: 250px;
     margin-left: 5px;
     width: 99%;
 }
 
 .about-us {
-    width: 100%;
-    padding: 40px 75px
+    padding: 40px 0px;
+    padding-left: 75px;
 }
 
 .clients img {
@@ -200,3 +202,72 @@ hr {
 .clients img:hover {
     cursor: pointer;
 }
+
+.about-us-div {
+    padding: 90px 0px;
+}
+
+.about-us-left {
+    width: 45%;
+    float: left;
+}
+
+.about-us-right {
+    width: 50%;
+    float: right;
+}
+
+.about-us-right>img {
+    width: 100%;
+}
+
+.contact-us-btn {
+    float: left;
+    font-weight: bold;
+    color: white;
+    border-radius: 80px;
+    border: none;
+    width: 120px;
+    height: 40px;
+    padding: 6px 16px;
+    background-color: #3a79f9;
+    margin-right: 75px;
+    box-shadow: 0.125rem 0.1875rem 0.9375rem rgb(0 0 0 / 15%);
+}
+
+.contact-us-btn:hover {
+    cursor: pointer;
+    box-shadow: .125rem 0.1875rem 0.9375rem rgb(0 0 0 / 30%);
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.gaq-btn {
+    float: left;
+    font-weight: bold;
+    color: black;
+    border-radius: 80px;
+    border: 1px solid rgb(156, 156, 156);
+    width: 120px;
+    height: 40px;
+    padding: 6px 16px;
+    background-color: white;
+    margin-right: 75px;
+}
+
+.gaq-btn:hover {
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.about-us-left>h2,
+.about-us-left>p,
+.about-us-left>div {
+    margin: 30px 0px;
+}
+
+.counters {
+    padding: 40px 75px;
+}
+
