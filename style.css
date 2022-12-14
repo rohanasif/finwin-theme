@@ -297,6 +297,7 @@ nav li:hover {
 }
 
 .ssdiv {
+    transition-duration: .15s;
     opacity: 0.4;
     float: left;
     width: 30%;
@@ -317,5 +318,12 @@ nav li:hover {
 }
 
 .ssdiv:hover {
+    transition-duration: .15s;
     opacity: 1;
+}
+
+.span-div {
+    z-index: 1;
+    background-color: white;
+    transform: rotate(90deg);
 }
