@@ -332,6 +332,12 @@ nav li:hover {
     padding: 90px 0px;
 }
 
+.life-story>h2 {
+    text-align: center;
+}
+
+
+
 .story-div {
     width: 30%;
     float: left;
@@ -356,6 +362,7 @@ nav li:hover {
 }
 
 .prices {
+    text-align: center;
     padding: 40px 75px;
 }
 
@@ -363,4 +370,66 @@ nav li:hover {
     width: 20%;
     margin-right: 150px;
     float: left;
+}
+
+.price>h2 {
+    color: white;
+    background-color: #1B3874;
+}
+
+.our-team {
+    padding: 40px 75px;
+}
+
+.member {
+    box-shadow: 10px 10px 2px rgb(0 0 0 / 15%);
+    float: left;
+    margin-right: 10px;
+}
+
+.gallery {
+    margin-top: 265px;
+    padding: 40px 0px;
+}
+
+.gallery>h2 {
+    padding: 0px 75px;
+}
+
+.pic {
+    height: 448px;
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+#pic-1 {
+    background-image: url(./images/img-01.jpg);
+}
+
+#pic-2 {
+    background-image: url(./images/img-02.jpg);
+}
+
+#pic-3 {
+    background-image: url(./images/img-03.jpg);
+}
+
+#pic-4 {
+    background-image: url(./images/img-04.jpg);
+}
+
+#pic-5 {
+    background-image: url(./images/img-05.jpg);
+}
+
+#pic-6 {
+    background-image: url(./images/img-06.jpg);
+}
+
+.pic-text {
+    margin-top: 350px;
 }
