@@ -354,3 +354,13 @@ nav li:hover {
     height: 10px;
     background-color: black;
 }
+
+.prices {
+    padding: 40px 75px;
+}
+
+.price {
+    width: 20%;
+    margin-right: 150px;
+    float: left;
+}
