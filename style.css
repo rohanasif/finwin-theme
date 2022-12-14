@@ -264,10 +264,58 @@ nav li:hover {
 .about-us-left>h2,
 .about-us-left>p,
 .about-us-left>div {
-    margin: 30px 0px;
+    margin: 25px 0px;
 }
 
 .counters {
+    height: 200px;
+    padding: 40px 75px;
+    background-image: linear-gradient(rgba(17, 0, 255, 0.5), rgba(17, 0, 255, 0.5)), url(./images/bg-mountain.jpg);
+    margin-top: 279px;
+}
+
+.counter {
+    float: left;
+    padding-top: 80px;
+    padding-left: 100px;
+}
+
+.counter>h2 {
+    font-size: 48px;
+    font-weight: 400;
+    color: rgb(130, 138, 182);
+}
+
+.counter>p {
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
+.success-stories {
     padding: 40px 75px;
 }
 
+.ssdiv {
+    opacity: 0.4;
+    float: left;
+    width: 30%;
+    height: 400px;
+    margin-right: 20px;
+}
+
+#ssdiv-1 {
+    background-image: url(./images/img-bw-man-phone.jpg);
+}
+
+#ssdiv-2 {
+    background-image: url(./images/img-bw-food.jpg);
+}
+
+#ssdiv-3 {
+    background-image: url(./images/img-bw-student-drawing.jpg);
+}
+
+.ssdiv:hover {
+    opacity: 1;
+}
