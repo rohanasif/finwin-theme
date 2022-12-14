@@ -463,3 +463,34 @@ nav li:hover {
     position: absolute;
     left: 50%;
 }
+
+.contact {
+    background-image: linear-gradient(rgba(17, 0, 255, 0.5), rgba(17, 0, 255, 0.5)), url(./images/bg-hand-mobile.jpg);
+    padding: 40px 75px;
+}
+
+.left-contact {
+    float: left;
+}
+
+.right-contact {
+    margin-left: 100px;
+    float: left;
+}
+
+.contact>button {
+    float: right;
+    margin-top: 30px;
+    margin-right: 380px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: white;
+}
+
+.white-bg {
+    background-color: white;
+    height: 230px;
+}
