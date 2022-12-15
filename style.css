@@ -74,6 +74,7 @@ nav li:hover {
 
 
 .left-div {
+    top: 100px;
     background-image: url(./images/shape-mask.svg);
     height: 100vh;
     position: absolute;
@@ -160,7 +161,7 @@ nav li:hover {
 .span-div {
     top: 0px;
     left: 70px;
-    position: absolute;
+    position: relative;
     width: 30px;
     height: 30px;
     border-radius: 30px;
@@ -350,6 +351,12 @@ nav li:hover {
 .timeline>div {
     margin-left: 200px;
     float: left;
+}
+
+
+.timeline>hr {
+    border: none;
+    margin-top: 73px;
 }
 
 .dot {
