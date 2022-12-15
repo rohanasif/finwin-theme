@@ -344,7 +344,7 @@ nav li:hover {
 }
 
 .timeline {
-    margin-top: 100px;
+    margin-top: 160px;
     border: 1px solid;
 }
 
@@ -356,7 +356,6 @@ nav li:hover {
 
 .timeline>hr {
     border: none;
-    margin-top: 73px;
 }
 
 .dot {
@@ -501,4 +500,5 @@ footer {
 .white-bg {
     background-color: white;
     height: 230px;
+    padding: 30px;
 }
